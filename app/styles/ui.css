@@ -210,6 +210,15 @@ a.button {
   border: 2px solid var(--gray);
 }
 
+.button.gradient-text-overlay,
+.button.gradient-text-overlay span.material-symbols-outlined{
+  background: 
+  linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent!important;
+  color: transparent!important;
+}
+
 .button.gray-overlay:hover {
   color: var(--white);
   background-color: var(--gray);
