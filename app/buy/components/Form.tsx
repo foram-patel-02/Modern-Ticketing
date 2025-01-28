@@ -87,7 +87,7 @@ const Form: React.FC = () => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -100,7 +100,7 @@ const Form: React.FC = () => {
     >
       <div className='form-elements'>
         <div className='form-line padding-top'>
-          <Heading type={5} color='gray' text='Buyer info' />
+          <Heading type={5} color='gradient' text='Buyer info' />
         </div>
         <div className='form-line'>
           <div className='flex flex-v-center flex-space-between'>
@@ -135,7 +135,7 @@ const Form: React.FC = () => {
           </div>
         </div>
         <div className='form-line padding-top'>
-          <Heading type={5} color='gray' text='Payment details' />
+          <Heading type={5} color='gradient' text='Payment details' />
         </div>
         <div className='form-line'>
           <div className='flex flex-v-center flex-space-between'>
@@ -202,7 +202,7 @@ const Form: React.FC = () => {
           </div>
         </div>
         <div className='form-buttons'>
-          <Button type='submit' color='blue-filled' text='Place payment & Issue tickets' />
+          <Button type='submit' color='gradient-filled' text='Place payment & Issue tickets' />
         </div>
       </div>
     </form>

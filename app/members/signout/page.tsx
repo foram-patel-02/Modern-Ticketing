@@ -8,18 +8,18 @@ import ButtonLink from '@components/Button/ButtonLink';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Signed out' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Signed out' />
+          <p className='white form-information'>
             You are successfully signed out an you can safely return to home page.
           </p>
 
           <div className='button-container'>
-            <ButtonLink color='gray-overlay' text='Return to home' url='' />
+            <ButtonLink color='gradient-overlay btnhover' text='Return to home' url='' />
             &nbsp; &nbsp;
-            <ButtonLink color='blue-filled' text='Sign in again' url='members/signin' />
+            <ButtonLink color='gradient-filled' text='Sign in again' url='members/signin' />
           </div>
         </div>
       </div>

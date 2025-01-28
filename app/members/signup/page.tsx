@@ -11,13 +11,13 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Sign up' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Sign up' />
+          <p className='white form-information'>
             Create an account to customize your experience for your ticketing journey.{' '}
-            <Link href='/members/signin' className='blue'>
+            <Link href='/members/signin' className='purple'>
               Click here
             </Link>{' '}
             to sign in if you already have an account.

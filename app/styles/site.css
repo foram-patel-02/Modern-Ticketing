@@ -46,7 +46,7 @@ section {
   font-optical-sizing: auto;
   font-variation-settings: 'wdth' 100;
   font-family: 'Rethink Sans', sans-serif;
-  background: #000;
+  background: #000000;
   color: white;
 }
 
@@ -168,9 +168,9 @@ header .container .links a {
 
 header .container .links a:hover {
   text-decoration: underline;
-  background:  linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header .container .members {
@@ -248,9 +248,9 @@ footer .container .links a {
 
 footer .container .links a:hover {
   text-decoration: underline;
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 footer .container .members a,
@@ -263,8 +263,8 @@ footer .container .members a {
   text-decoration: underline;
 }
 
-footer .container .members a:first-child{
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
+footer .container .members a:first-child {
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -301,7 +301,7 @@ footer .newsletter .input-container {
   margin: 40px auto 0 auto;
   justify-content: space-between;
   background-color: var(--pure-black);
-  border: 2px solid rgb(115, 59 ,173);
+  border: 2px solid rgb(115, 59, 173);
 }
 
 footer .newsletter .input-container input {
@@ -311,10 +311,10 @@ footer .newsletter .input-container input {
   padding-right: 5px;
   border-radius: 50em;
   background-color: transparent;
-  color: var(--white);
+  color: var(--white);;
 }
 
-footer .newsletter .input-container input::placeholder{
+footer .newsletter .input-container input::placeholder {
   color: var(--white);
 }
 
@@ -331,12 +331,11 @@ footer .newsletter .input-container button:active {
 
 footer .newsletter .input-container button:hover span.material-symbols-outlined,
 footer .newsletter .input-container button:active span.material-symbols-outlined {
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
+  background:linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent !important;
   color: transparent; /* Fallback for extra specificity */
 }
-
 
 footer .terms {
   padding: 10px 0;
@@ -350,10 +349,10 @@ footer .terms a {
 
 footer .terms a:hover {
   text-decoration: underline;
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent; /* Fallback for extra specificity */
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent; /* Fallback for extra specificity */
 }
 
 .title h1,
@@ -411,15 +410,15 @@ footer .terms a:hover {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  border-radius: 50rem;
+  border-radius: 50em;
   transition: all 0.5s;
-  background:  linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207)) ;
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));
   border: 2px solid var(--dark-gray);
 }
 
 .scroll-container .left-arrow button:active,
 .scroll-container .right-arrow button:active {
-  background:  transparent;
+  background: transparent;
   border: 2px solid var(--purple);
 }
 
@@ -431,11 +430,10 @@ footer .terms a:hover {
 
 .scroll-container .left-arrow button:active span.material-symbols-outlined,
 .scroll-container .right-arrow button:active span.material-symbols-outlined{
-  background: linear-gradient(0deg, 
-  rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171)) !important;
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171)) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: transparent !important;
+    color: transparent !important;;
 }
 
 .scrollable {
@@ -468,7 +466,7 @@ footer .terms a:hover {
 .box {
   width: 280px;
   height: 300px;
-  padding: 10px;
+  padding: 2px;
   user-select: none;
   text-align: center;
   vertical-align: top;
@@ -477,7 +475,7 @@ footer .terms a:hover {
   display: inline-block;
   box-sizing: border-box;
   margin: 2px 20px 15px 0;
-  background-color: var(--white);
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));
   box-shadow:
     0 4px 6px -4px rgba(0, 0, 0, 0.1),
     0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -489,13 +487,14 @@ footer .terms a:hover {
 }
 
 .box-inner {
-  height: 300px;
+  height: 100%;
   display: flex;
   padding-top: 40px;
   align-items: center;
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
+  border-radius: 10px;
 }
 
 .box .box-inner span {
@@ -613,14 +612,14 @@ footer .terms a:hover {
   display: flex;
   font-size: 1em;
   cursor: pointer;
-  color: #444444;
+  color: var(--white);
   user-select: none;
   padding: 15px 25px;
-  border-radius: 5px;
+  border-radius: 50rem;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dadada;
-  background-color: var(--light-gray);
+  border: 1px solid var(--purple);
+  background-color: transparent;
 }
 
 .google-button:active {
@@ -646,7 +645,7 @@ footer .terms a:hover {
   width: 100%;
   z-index: 9998;
   position: absolute;
-  border: 1px solid #dadada;
+  border: 1px solid var(--purple);
 }
 
 .or-line span {
@@ -655,7 +654,7 @@ footer .terms a:hover {
   position: relative;
   border-radius: 40px;
   display: inline-block;
-  background-color: #ffffff;
+  /* background-color: var(--pure-black); */
 }
 
 .filters .button {
@@ -722,7 +721,7 @@ footer .terms a:hover {
   user-select: none;
   border-radius: 10px;
   --webkit-user-select: none;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--purple);
   box-shadow:
     0 4px 6px -4px rgba(0, 0, 0, 0.1),
     0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -730,10 +729,10 @@ footer .terms a:hover {
 }
 
 .ticket-box .ticket-box-header {
-  padding: 10px;
+  padding: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: var(--light-gray);
+  background-color: var(--pure-black);
 }
 
 .ticket-box .ticket-box-header h4 {
@@ -741,7 +740,7 @@ footer .terms a:hover {
 }
 
 .ticket-box .ticket-box-line {
-  padding: 15px 10px;
+  padding: 10px 20px;
   border-bottom: 1px solid rgba(17, 24, 39, 0.1);
 }
 
@@ -771,11 +770,11 @@ footer .terms a:hover {
 }
 
 .ticket-box .ticket-box-buttons {
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: var(--light-gray);
+  background: transparent;
 }
 
 .ticket-box .ticket-box-buttons button {
@@ -790,26 +789,28 @@ footer .terms a:hover {
 .ticket-box .quantity input,
 .ticket-box .quantity button {
   width: unset;
-  height: 30px;
+  height: 100%;
   border-radius: 0;
   display: inline-block;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--purple);
+  color: var(--white);
 }
 
 .ticket-box .quantity input {
-  padding: 0;
+  padding: 6px 0 5px;
   width: 35px;
   font-size: 0.9em;
   text-align: center;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--purple);
+ 
 }
 
 .ticket-box .quantity button {
-  padding: 0;
+  padding: 4px 0;
   width: 30px;
   cursor: pointer;
   color: var(--white);
-  background-color: var(--blue);
+  background: transparent;
 }
 
 .top-search {
@@ -820,8 +821,26 @@ footer .terms a:hover {
 
 .top-search .search-inputs {
   border-radius: 50rem;
-  border: 2px solid rgb(115, 59 ,173);
+  border: 2px solid rgb(115, 59, 173);
   background-color: transparent;
+}
+
+.top-search .search-inputs .input-text.form-element {
+  border: none !important;
+}
+
+.button-container .btnhover{
+  transition: all .3s;
+}
+
+.button-container .btnhover:hover{
+  background: linear-gradient(0deg,
+    rgb(112, 73, 255),
+    rgb(252, 10, 246),
+    rgb(251, 237, 171));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
 }
 
 .top-search .search-inputs input:hover {
@@ -854,7 +873,7 @@ footer .terms a:hover {
 }
 
 .top-search .search-inputs button:hover span.material-symbols-outlined {
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent !important;
   color: transparent;
@@ -882,7 +901,7 @@ footer .terms a:hover {
   border-radius: 50em;
   transition: all 0.5s;
   justify-content: center;
-  border: 1px solid rgb(115, 59 ,173);
+  border: 1px solid rgb(115, 59, 173);
   box-shadow:
     0 4px 6px -4px rgba(0, 0, 0, 0.1),
     0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -894,23 +913,22 @@ footer .terms a:hover {
 }
 
 .circle-button .circle:hover {
-  /* background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171)); */
+  /* linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171)); */
   transform: translateY(-10px);
 }
 
 .circle-button .circle:active {
-  /* background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171)); */
-  transform: translateY(-10px);
+  /* linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171)); */
+    transform: translateY(-10px);
 }
 
-.circle-button .circle span.material-symbols-outlined {
+.circle-button .circle span {
   font-size: 2.3em;
-  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251,237,171));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
+  background: linear-gradient(0deg, rgb(112, 73, 255), rgb(252, 10, 246), rgb(251, 237, 171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent;
 }
-
 
 .circle-button .text {
   font-size: 0.8em;
@@ -920,12 +938,12 @@ footer .terms a:hover {
 .table {
   width: 100%;
   border-spacing: 0;
-  border-radius: 10px;
-  border: 1px solid #f1f1f1;
+  border-radius: 0px;
+  border: 1px solid var(--purple);
 }
 
 .table tr {
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--purple);
 }
 
 .table th,
@@ -933,23 +951,23 @@ td {
   padding: 10px;
 }
 
-.table th:first-child {
+/* .table th:first-child {
   border-top-left-radius: 10px;
 }
 
 .table th:last-child {
   border-top-right-radius: 10px;
-}
+} */
 
 .table th {
   font-weight: 600;
   user-select: none;
   color: var(--white);
-  background-color: var(--blackest-gray);
+  background-color: var(--purple);
 }
 
 .table td {
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--purple);
 }
 
 .main-menu-backdrop {
@@ -1005,7 +1023,7 @@ td {
 }
 
 .list-cards .card {
-  margin: 5px 10px 15px 10px;
+  margin: 20px 12px;
 }
 
 .list-cards .card:first-child {

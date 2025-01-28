@@ -9,11 +9,11 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Reset password' />
-          <p className='gray form-information'>
+          <Heading type={1} color='white' text='Reset password' />
+          <p className='white form-information'>
             Please enter your new password. We will change your password immediately.
           </p>
         </div>

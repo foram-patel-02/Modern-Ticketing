@@ -11,18 +11,18 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Buy tickets' />
-          <p className='gray'>
+          <Heading type={1} color='gradient' text='Buy tickets' />
+          <p className='white'>
             Please enter your personal &amp; payment details. We will issue and send your tickets
             your e-mail address immediately.
           </p>
         </div>
         <div className='padding-top center'>
           <div className='padding-top'>
-            <Heading type={5} color='gray' text='Details' />
+            <Heading type={5} color='gradient' text='Details' />
             <p>
               <strong>Event</strong> Event name goes here
             </p>
@@ -66,7 +66,7 @@ const Page: React.FC = () => (
         <div className='paragraph-container center'>
           <p>
             By clicking place payment button I agree to the&nbsp;
-            <Link href='/legal/terms-of-service' className='blue'>
+            <Link href='/legal/terms-of-service' className='purple'>
               Terms of service
             </Link>
           </p>

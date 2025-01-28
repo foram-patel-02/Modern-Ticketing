@@ -9,11 +9,11 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Forgot password' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Forgot password' />
+          <p className='white form-information'>
             Please enter your registered email address. Instructions for resetting your password
             will have sent to your email address. If you do not see the email in a few minutes,
             check your junk mail or spam folder.

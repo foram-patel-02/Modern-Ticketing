@@ -30,7 +30,7 @@ const Input: React.FC<IProps> = ({
     required={required}
     value={value}
     maxLength={maxLength}
-    className='input-text'
+    className='input-text form-element'
     placeholder={placeholder}
     onChange={onChange}
   />

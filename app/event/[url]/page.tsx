@@ -27,16 +27,16 @@ const Page: React.FC = () => (
           }}
           className='cover-image image'
         />
-        <Heading type={1} color='white' text='Event name goes here' />
+        <Heading type={1} color='gradient' text='Event name goes here' />
         <Heading type={5} color='white' text='Tue, Sep 21, 2024 19:00' />
         <Heading type={6} color='white' text='Royal Albert Hall' />
       </div>
     </div>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='event-details'>
           <div>
-            <Heading type={4} color='gray' text='Event details' />
+            <Heading type={4} color='gradient' text='Event details' />
             <div className='paragraph-container gray'>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -59,7 +59,7 @@ const Page: React.FC = () => (
           <div>
             <div className='ticket-box'>
               <div className='ticket-box-header'>
-                <Heading type={4} color='gray' text='Tickets' />
+                <Heading type={4} color='gradient' text='Tickets' />
               </div>
               <TicketForm
                 data={[
@@ -91,27 +91,27 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
-        <Heading type={4} color='gray' text='Royal Albert Hall' />
+        <Heading type={4} color='gradient' text='Royal Albert Hall' />
 
-        <Heading type={6} color='gray' text='Address' />
+        <Heading type={6} color='white' text='Address' />
         <div className='paragraph-container'>
-          <p className='gray'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
+          <p className='white'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
         </div>
-        <Heading type={6} color='gray' text='How to get there?' />
+        <Heading type={6} color='white' text='How to get there?' />
         <div className='paragraph-container'>
-          <p className='gray'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
+          <p className='white'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
           <p className='gray'>
-            <Link href='/venue/1' className='blue'>
+            <Link href='/venue/1' className='purple'>
               Venue details
             </Link>
             &nbsp; &bull; &nbsp;
-            <a target='_blank' href='/' className='blue'>
+            <a target='_blank' href='/' className='purple'>
               Get directions
             </a>
             &nbsp; &bull; &nbsp;
-            <a target='_blank' href='/' className='blue'>
+            <a target='_blank' href='/' className='purple'>
               Show in map
             </a>
           </p>
@@ -119,11 +119,11 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <CardGroup url='list' title='Other events' color='orange' background='gray'>
+    <CardGroup url='list' title='Other events' color='gradient' background='gray'>
       <EventCard
         url='1'
         from='20'
-        color='orange'
+        color='gradient-badge'
         when='Tue, Sep 21, 2024 19:00'
         name='Event name goes here'
         venue='Royal Albert Hall'
@@ -132,7 +132,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='25'
-        color='orange'
+        color='gradient-badge'
         when='Wed, Aug 9, 2024 22:00'
         name='Event name goes here'
         venue='o2 Arena'
@@ -141,7 +141,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='10'
-        color='orange'
+        color='gradient-badge'
         when='Sun, Mar 14, 2024 15:00'
         name='Event name goes here'
         venue='Wembley Stadium'
@@ -150,7 +150,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='60'
-        color='orange'
+        color='gradient-badge'
         when='Mon, Jul 2, 2024 20:00'
         name='Event name goes here'
         venue='Eventim Apollo'
@@ -159,7 +159,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='20'
-        color='orange'
+        color='gradient-badge'
         when='Tue, Sep 21, 2024 19:00'
         name='Event name goes here'
         venue='Royal Albert Hall'
@@ -168,7 +168,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='25'
-        color='orange'
+        color='gradient-badge'
         when='Wed, Aug 9, 2024 22:00'
         name='Event name goes here'
         venue='o2 Arena'

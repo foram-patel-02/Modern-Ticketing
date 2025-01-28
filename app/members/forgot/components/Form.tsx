@@ -83,7 +83,7 @@ const Form: React.FC = () => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -112,7 +112,7 @@ const Form: React.FC = () => {
           </div>
         </div>
         <div className='form-buttons'>
-          <Button type='submit' color='blue-filled' text='Reset password' />
+          <Button type='submit' color='gradient-filled' text='Reset password' />
         </div>
       </div>
     </form>

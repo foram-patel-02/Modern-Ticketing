@@ -7,10 +7,10 @@ import Heading from '@components/Heading/Heading';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Legal' />
+          <Heading type={1} color='gradient' text='Legal' />
         </div>
       </div>
     </Section>

@@ -11,11 +11,11 @@ import ButtonGroupItem from '@components/Button/ButtonGroupItem';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='My tickets' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='My tickets' />
+          <p className='white form-information'>
             You can access the tickets you purchased from this page at any time. You can download or
             send your tickets. Please note: You will not be able to see tickets for events that have
             already ended or been canceled on this page.
@@ -29,7 +29,7 @@ const Page: React.FC = () => (
         </div>
       </div>
     </Section>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='ticket-item'>
           <div className='item-right'>

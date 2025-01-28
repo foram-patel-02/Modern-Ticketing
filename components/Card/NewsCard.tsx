@@ -17,7 +17,7 @@ const NewsCard: React.FC<IProps> = ({ url, name, when, image, color }) => (
   <div className='card'>
     <Link href={`/news/${url}`}>
       <div
-        className='card-image'
+        className='card-image top-radius'
         style={{
           backgroundImage: `url("${image}")`,
         }}

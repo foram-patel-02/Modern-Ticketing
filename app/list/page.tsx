@@ -8,11 +8,11 @@ import EventCard from '@components/Card/EventCard';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='padding-bottom center'>
-          <Heading type={1} color='gray' text='Events' />
-          <p className='gray'>Discover, search and filter best events in London.</p>
+          <Heading type={1} color='gradient' text='Events' />
+          <p className='white'>Discover, search and filter best events in London.</p>
         </div>
       </div>
     </Section>
@@ -22,7 +22,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='20'
-          color='blue'
+          color='gradient-badge'
           when='Tue, Sep 21, 2024 19:00'
           name='Event name goes here'
           venue='Royal Albert Hall'
@@ -31,7 +31,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='25'
-          color='blue'
+          color='gradient-badge'
           when='Wed, Aug 9, 2024 22:00'
           name='Event name goes here'
           venue='o2 Arena'
@@ -40,7 +40,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='10'
-          color='blue'
+          color='gradient-badge'
           when='Sun, Mar 14, 2024 15:00'
           name='Event name goes here'
           venue='Wembley Stadium'
@@ -49,7 +49,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='60'
-          color='blue'
+          color='gradient-badge'
           when='Mon, Jul 2, 2024 20:00'
           name='Event name goes here'
           venue='Eventim Apollo'
@@ -58,7 +58,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='20'
-          color='blue'
+          color='gradient-badge'
           when='Tue, Sep 21, 2024 19:00'
           name='Event name goes here'
           venue='Royal Albert Hall'
@@ -67,7 +67,7 @@ const Page: React.FC = () => (
         <EventCard
           url='1'
           from='25'
-          color='blue'
+          color='gradient-badge'
           when='Wed, Aug 9, 2024 22:00'
           name='Event name goes here'
           venue='o2 Arena'

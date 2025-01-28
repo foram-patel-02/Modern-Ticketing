@@ -11,13 +11,13 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Sign in' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Sign in' />
+          <p className='white form-information'>
             Please enter your e-mail address and password to sign in. Don&apos;t have an account?{' '}
-            <Link href='/members/signup' className='blue'>
+            <Link href='/members/signup' className='purple'>
               Sign up here
             </Link>
           </p>

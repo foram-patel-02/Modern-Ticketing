@@ -110,7 +110,7 @@ const Form: React.FC = () => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -226,19 +226,19 @@ const Form: React.FC = () => {
           <div className='label-line'>
             <label htmlFor='tos'>Agreements</label>
           </div>
-          <Switch name='tos' color='blue' onChange={handleCheckboxChange}>
+          <Switch name='tos' color='purple' onChange={handleCheckboxChange}>
             I agree to the{' '}
-            <Link href='/legal/privacy-policy' className='blue'>
+            <Link href='/legal/privacy-policy' className='purple'>
               Privacy policy
             </Link>{' '}
             and{' '}
-            <Link href='/legal/terms-of-service' className='blue'>
+            <Link href='/legal/terms-of-service' className='purple'>
               TOS
             </Link>
           </Switch>
         </div>
         <div className='form-buttons'>
-          <Button type='submit' color='blue-filled' text='Sign up' />
+          <Button type='submit' color='gradient-filled' text='Sign up' />
         </div>
       </div>
     </form>

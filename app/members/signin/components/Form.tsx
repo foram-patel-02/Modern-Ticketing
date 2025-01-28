@@ -87,7 +87,7 @@ const Form: React.FC = () => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -156,7 +156,7 @@ const Form: React.FC = () => {
         <div className='form-line'>
           <div className='label-line flex flex-v-center flex-space-between'>
             <label htmlFor='password'>Password</label>
-            <Link href='/members/forgot' className='blue'>
+            <Link href='/members/forgot' className='purple'>
               Forgot password?
             </Link>
           </div>
@@ -171,7 +171,7 @@ const Form: React.FC = () => {
           />
         </div>
         <div className='form-buttons'>
-          <Button type='submit' color='blue-filled' text='Sign in' />
+          <Button type='submit' color='gradient-filled' text='Sign in' />
         </div>
       </div>
     </form>

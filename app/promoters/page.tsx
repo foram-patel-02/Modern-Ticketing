@@ -10,11 +10,11 @@ import ButtonLink from '@components/Button/ButtonLink';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='padding-bottom center'>
-          <Heading type={1} color='gray' text='Promoters' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Promoters' />
+          <p className='white form-information'>
             Whether you&apos;re selling one ticket or a hundred thousand, the Modern ticketing
             infrastructure is designed to meet all your needs. Plus, there are no additional fees or
             surprises added later!
@@ -26,8 +26,8 @@ const Page: React.FC = () => (
     <Section>
       <div className='container'>
         <div className='center'>
-          <Heading type={5} color='gray' text='Manage everything with a single application' />
-          <p className='gray form-information'>
+          <Heading type={5} color='white' text='Manage everything with a single application' />
+          <p className='white form-information'>
             With our specially designed Promoter application, you can track ticket sales in
             real-time and admit customers at the door with your barcode scanner. Plus, it&apos;s
             free!
@@ -35,7 +35,7 @@ const Page: React.FC = () => (
           <div className='button-container'>
             <ButtonLink
               text='Get started'
-              color='gray-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               url='contact'
             />
@@ -44,11 +44,11 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={5} color='gray' text='Sustainable ticketing' />
-          <p className='gray form-information'>
+          <Heading type={5} color='gradient' text='Sustainable ticketing' />
+          <p className='white form-information'>
             Stunning, white-labelled pages to promote your event. To get started selling tickets
             online with Modern ticketing, you&apos;ll first create a beautiful event website to
             promote your event.
@@ -56,7 +56,7 @@ const Page: React.FC = () => (
           <div className='button-container'>
             <ButtonLink
               text='Get started'
-              color='gray-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               url='contact'
             />
@@ -68,35 +68,35 @@ const Page: React.FC = () => (
     <Section>
       <div className='container'>
         <div className='center'>
-          <Heading type={5} color='gray' text='How it works?' />
-          <p className='gray'>100% Modern Ticketing backed guarantee.</p>
+          <Heading type={5} color='gradient' text='How it works?' />
+          <p className='white'>100% Modern Ticketing backed guarantee.</p>
         </div>
       </div>
 
       <div className='carousel padding-top'>
         <Slider>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>today</span>
+            <span className='material-symbols-outlined gradient'>today</span>
             <p>Break down silos between marketing, design, and development</p>
           </Box>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>stacked_bar_chart</span>
+            <span className='material-symbols-outlined gradient'>stacked_bar_chart</span>
             <p>Backed by enterprise-grade security</p>
           </Box>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>area_chart</span>
+            <span className='material-symbols-outlined gradient'>area_chart</span>
             <p>We’ll partner with you to ensure success</p>
           </Box>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>table_chart_view</span>
+            <span className='material-symbols-outlined gradient'>table_chart_view</span>
             <p>World-class performance</p>
           </Box>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>database</span>
+            <span className='material-symbols-outlined gradient'>database</span>
             <p>Harness the power of code without writing it</p>
           </Box>
           <Box className='gray'>
-            <span className='material-symbols-outlined gray'>pie_chart</span>
+            <span className='material-symbols-outlined gradient'>pie_chart</span>
             <p>You have a team dedicated to serving your customers individually</p>
           </Box>
         </Slider>
@@ -105,7 +105,7 @@ const Page: React.FC = () => (
       <div className='button-container center'>
         <ButtonLink
           text='Get started'
-          color='gray-filled'
+          color='gradient-filled'
           rightIcon='arrow_forward'
           url='contact'
         />
