@@ -9,14 +9,14 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Change e-mail' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Change e-mail' />
+          <p className='white form-information'>
             Please enter your new email address. A verification email including your activation code
             will be sent to your new email address. Your current email address is{' '}
-            <strong>cenk@cenksari.com</strong>
+            <strong className='purple'>cenk@cenksari.com</strong>
           </p>
         </div>
         <Form />

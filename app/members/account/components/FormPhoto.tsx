@@ -63,7 +63,7 @@ const FormPhoto: React.FC<IProps> = ({ data }) => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -79,7 +79,7 @@ const FormPhoto: React.FC<IProps> = ({ data }) => {
           <span className='material-symbols-outlined'>add_a_photo</span>
         </label>
         <ProfilePhoto image={data} size='large' />
-        <span className='muted'>click picture to change</span>
+        <span className='muted white'>click picture to change</span>
       </div>
     </form>
   );

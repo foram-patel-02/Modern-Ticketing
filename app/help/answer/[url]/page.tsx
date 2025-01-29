@@ -10,31 +10,31 @@ import ButtonLink from '@components/Button/ButtonLink';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='flex'>
           <div className='help-left'>
-            <Heading type={2} color='gray' text='Account' />
+            <Heading type={2} color='gradient' text='Account' />
             <ul>
               <li>
-                <Link href='/help/answer/1' className='blue'>
+                <Link href='/help/answer/1' className='purple'>
                   How can i sign in?
                 </Link>
               </li>
               <li>
-                <Link href='/help/answer/1' className='blue'>
+                <Link href='/help/answer/1' className='purple'>
                   How can i sign up?
                 </Link>
               </li>
               <li>
-                <Link href='/help/answer/1' className='blue'>
+                <Link href='/help/answer/1' className='purple'>
                   Reset your password
                 </Link>
               </li>
             </ul>
           </div>
           <div className='help-right'>
-            <Heading type={1} color='gray' text='Help article' />
+            <Heading type={1} color='gradient' text='Help article' />
             <div className='paragraph-container'>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -55,27 +55,27 @@ const Page: React.FC = () => (
             </div>
 
             <div className='button-container right'>
-              <ButtonLink color='gray-overlay' text='Back to category' url='help/category/1' />
+              <ButtonLink color='gradient-filled' text='Back to category' url='help/category/1' />
               &nbsp; &nbsp;
-              <ButtonLink color='blue-filled' text='Back to help page' url='help' />
+              <ButtonLink color='gradient-filled' text='Back to help page' url='help' />
             </div>
           </div>
         </div>
       </div>
     </Section>
 
-    <Section className='gray-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={3} color='gray' text='Any questions?' />
-          <p className='gray'>
+          <Heading type={3} color='gradient' text='Any questions?' />
+          <p className='white'>
             If you can&apos;t find what you are looking for or need further support please contact
             us and we will be happy to help.
           </p>
 
           <div className='button-container'>
             <ButtonLink
-              color='blue-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               text='Contact us'
               url='contact'

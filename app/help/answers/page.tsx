@@ -10,57 +10,57 @@ import ButtonLink from '@components/Button/ButtonLink';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='All answers' />
-          <p className='gray'>Showing all help answers and all categories.</p>
+          <Heading type={1} color='gradient' text='All answers' />
+          <p className='white'>Showing all help answers and all categories.</p>
         </div>
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='help-answers center'>
           <Link href='/help/category/1'>
-            <Heading type={5} color='gray' text='Help category' />
+            <Heading type={5} color='gradient' text='Help category' />
           </Link>
 
           <ul>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign in?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign up?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 Reset your password
               </Link>
             </li>
           </ul>
 
           <Link href='/help/category/1'>
-            <Heading type={5} color='gray' text='Help category' />
+            <Heading type={5} color='gradient' text='Help category' />
           </Link>
 
           <ul>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign in?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign up?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 Reset your password
               </Link>
             </li>
@@ -69,18 +69,18 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='gray-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={3} color='gray' text='Any questions?' />
-          <p className='gray'>
+          <Heading type={3} color='gradient' text='Any questions?' />
+          <p className='white'>
             If you can&apos;t find what you are looking for or need further support please contact
             us and we will be happy to help.
           </p>
 
           <div className='button-container'>
             <ButtonLink
-              color='blue-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               text='Contact us'
               url='contact'

@@ -86,7 +86,7 @@ const Form: React.FC = () => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -131,9 +131,9 @@ const Form: React.FC = () => {
           </div>
         </div>
         <div className='form-buttons'>
-          <ButtonLink color='gray-overlay' text='Go back' url='members/account' />
+          <ButtonLink color='gradient-filled' text='Go back' url='members/account' />
           &nbsp; &nbsp;
-          <Button type='submit' color='blue-filled' text='Submit' />
+          <Button type='submit' color='gradient-filled' text='Submit' />
         </div>
       </div>
     </form>

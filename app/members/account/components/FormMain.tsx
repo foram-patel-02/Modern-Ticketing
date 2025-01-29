@@ -91,7 +91,7 @@ const FormMain: React.FC<IProps> = ({ data }) => {
   };
 
   if (loading) {
-    return <Loader type='inline' color='gray' text='Hang on a second' />;
+    return <Loader type='inline' color='white' text='Hang on a second' />;
   }
 
   return (
@@ -139,7 +139,7 @@ const FormMain: React.FC<IProps> = ({ data }) => {
           <div className='one-line'>
             <div className='label-line flex flex-v-center flex-space-between'>
               <label htmlFor='email'>E-mail address</label>
-              <Link href='/members/email' className='blue'>
+              <Link href='/members/email' className='purple'>
                 Change e-mail
               </Link>
             </div>
@@ -158,7 +158,7 @@ const FormMain: React.FC<IProps> = ({ data }) => {
         <div className='form-line'>
           <div className='label-line flex flex-v-center flex-space-between'>
             <label htmlFor='password'>Password</label>
-            <Link href='/members/password' className='blue'>
+            <Link href='/members/password' className='purple'>
               Change password
             </Link>
           </div>
@@ -173,9 +173,9 @@ const FormMain: React.FC<IProps> = ({ data }) => {
           />
         </div>
         <div className='form-buttons'>
-          <ButtonLink color='gray-overlay' text='Sign out' url='members/signout' />
+          <ButtonLink color='gradient-filled' text='Sign out' url='members/signout' />
           &nbsp; &nbsp;
-          <Button type='submit' color='blue-filled' text='Update profile' />
+          <Button type='submit' color='gradient-filled' text='Update profile' />
         </div>
       </div>
     </form>

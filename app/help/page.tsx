@@ -12,34 +12,34 @@ import FormSearch from './components/FormSearch';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Help' />
-          <p className='gray'>Welcome to our help center. How can we help today?</p>
+          <Heading type={1} color='gradient' text='Help' />
+          <p className='white'>Welcome to our help center. How can we help today?</p>
 
           <div className='top-search'>
             <FormSearch />
           </div>
           <div className='help-top flex flex-v-center flex-space-around'>
             <div className='center'>
-              <Heading type={5} color='gray' text='About us' />
-              <Link href='/help/answer/1' className='blue'>
-                <span className='material-symbols-outlined yellow'>star</span>
+              <Heading type={5} color='gradient' text='About us' />
+              <Link href='/help/answer/1' className='purple'>
+                {/* <span className='material-symbols-outlined none'>star</span> */}
                 What is ticketing?
               </Link>
             </div>
             <div className='center'>
-              <Heading type={5} color='gray' text='Account' />
-              <Link href='/help/answer/1' className='blue'>
-                <span className='material-symbols-outlined yellow'>star</span>
+              <Heading type={5} color='gradient' text='Account' />
+              <Link href='/help/answer/1' className='purple'>
+                {/* <span className='material-symbols-outlined none'>star</span> */}
                 How to sign in?
               </Link>
             </div>
             <div className='center'>
-              <Heading type={5} color='gray' text='Using system' />
-              <Link href='/help/answer/1' className='blue'>
-                <span className='material-symbols-outlined yellow'>star</span>
+              <Heading type={5} color='gradient' text='Using system' />
+              <Link href='/help/answer/1' className='purple'>
+                {/* <span className='material-symbols-outlined none'>star</span> */}
                 How can I get my tickets?
               </Link>
             </div>
@@ -48,24 +48,24 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={2} color='gray' text='Featured answers' />
+          <Heading type={2} color='gradient' text='Featured answers' />
           <div className='help-bottom flex flex-space-around padding-top padding-bottom'>
             <div className='help-bottom-box'>
               <div className='links'>
-                <Heading type={5} color='gray' text='About us' />
-                <Link href='/help/answer/1' className='blue'>
+                <Heading type={5} color='white' text='About us' />
+                <Link href='/help/answer/1' className='purple'>
                   What is ticketing?
                 </Link>
-                <Link href='/help/answer/1' className='blue'>
+                <Link href='/help/answer/1' className='purple'>
                   What is ticketing?
                 </Link>
               </div>
 
               <ButtonLink
-                color='gray-overlay'
+                color='gradient-filled'
                 rightIcon='arrow_forward'
                 text='See all'
                 url='help/category/1'
@@ -73,17 +73,17 @@ const Page: React.FC = () => (
             </div>
             <div className='help-bottom-box'>
               <div className='links'>
-                <Heading type={5} color='gray' text='Account' />
-                <Link href='/help/answer/1' className='blue'>
+                <Heading type={5} color='white' text='Account' />
+                <Link href='/help/answer/1' className='purple'>
                   How to sign in?
                 </Link>
-                <Link href='/help/answer/1' className='blue'>
+                <Link href='/help/answer/1' className='purple'>
                   What is ticketing?
                 </Link>
               </div>
 
               <ButtonLink
-                color='gray-overlay'
+                color='gradient-filled'
                 rightIcon='arrow_forward'
                 text='See all'
                 url='help/category/1'
@@ -91,14 +91,14 @@ const Page: React.FC = () => (
             </div>
             <div className='help-bottom-box'>
               <div className='links'>
-                <Heading type={5} color='gray' text='Using system' />
-                <Link href='/help/answer/1' className='blue'>
+                <Heading type={5} color='white' text='Using system' />
+                <Link href='/help/answer/1' className='purple'>
                   How can I get my tickets?
                 </Link>
               </div>
 
               <ButtonLink
-                color='gray-overlay'
+                color='gradient-filled'
                 rightIcon='arrow_forward'
                 text='See all'
                 url='help/category/1'
@@ -108,7 +108,7 @@ const Page: React.FC = () => (
 
           <div className='button-container'>
             <ButtonLink
-              color='gray-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               text='See all answers'
               url='help/answers'
@@ -118,18 +118,18 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='gray-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={3} color='gray' text='Any questions?' />
-          <p className='gray'>
+          <Heading type={3} color='gradient' text='Any questions?' />
+          <p className='white'>
             If you can&apos;t find what you are looking for or need further support please contact
             us and we will be happy to help.
           </p>
 
           <div className='button-container'>
             <ButtonLink
-              color='blue-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               text='Contact us'
               url='contact'

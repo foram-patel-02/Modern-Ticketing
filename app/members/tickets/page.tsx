@@ -21,7 +21,7 @@ const Page: React.FC = () => (
             already ended or been canceled on this page.
           </p>
           <div className='button-container'>
-            <ButtonGroup color='gray'>
+            <ButtonGroup color='gradient my-tickkets-btns'>
               <ButtonGroupItem url='members/tickets' text='My tickets' active />
               <ButtonGroupItem url='members/account' text='My account' />
             </ButtonGroup>

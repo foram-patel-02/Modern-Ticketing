@@ -623,8 +623,8 @@ footer .terms a:hover {
 }
 
 .google-button:active {
-  background-color: #eeeeee;
-  outline: rgb(77, 144, 254) auto 5px;
+  background-color: transparent;
+  outline: rgb(112, 73, 255) auto 5px;
 }
 
 .google-button svg,
@@ -1157,26 +1157,27 @@ td {
 .ticket-item {
   width: 70%;
   display: flex;
-  padding: 0 20px;
+  padding: 5px;
   overflow: hidden;
   user-select: none;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 0 auto 20px auto;
   --webkit-user-select: none;
-  background-color: var(--light-gray);
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));
 }
 
 .item-right,
 .item-left {
   padding: 20px;
+  border-radius: 10px;
 }
 
 .item-right {
   width: 25%;
   text-align: center;
   position: relative;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .item-right h2 {
@@ -1195,15 +1196,15 @@ td {
   letter-spacing: 2px;
 }
 
-.item-right .up-border,
+/* .item-right .up-border,
 .item-right .down-border {
   position: absolute;
   padding: 14px 15px;
   border-radius: 50em;
-  background-color: var(--white);
-}
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));
+} */
 
-.item-right .up-border {
+/* .item-right .up-border {
   top: -38px;
   right: -35px;
 }
@@ -1211,12 +1212,12 @@ td {
 .item-right .down-border {
   right: -35px;
   bottom: -13px;
-}
+} */
 
 .item-left {
   width: 71%;
-  padding: 30px 0 20px 70px;
-  border-left: 9px dotted var(--white);
+  padding: 30px;
+  /* border-left: 9px dotted var(--white); */
 }
 
 .item-left h5 {
@@ -1252,12 +1253,18 @@ td {
   border-radius: 50em;
   transition: all 0.5s;
   display: inline-block;
+  border: 2px solid transparent;
   -webkit-user-select: none;
-  background-color: var(--blackest-gray);
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));;
+}
+
+.item-left .actions a span.material-symbols-outlined{
+  background: transparent;
 }
 
 .item-left .actions a:hover {
-  background-color: var(--gray);
+  background: transparent;
+  border-color: var(--purple);
 }
 
 .item-left .actions a:active {

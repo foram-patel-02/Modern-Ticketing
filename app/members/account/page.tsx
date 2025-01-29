@@ -12,15 +12,15 @@ import FormPhoto from './components/FormPhoto';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='My account' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='My account' />
+          <p className='white form-information'>
             You can update your profile photo and your account details here.
           </p>
           <div className='button-container'>
-            <ButtonGroup color='gray'>
+            <ButtonGroup color='gradient my-tickkets-btns'>
               <ButtonGroupItem url='members/tickets' text='My tickets' />
               <ButtonGroupItem url='members/account' text='My account' active />
             </ButtonGroup>
@@ -31,7 +31,7 @@ const Page: React.FC = () => (
         </div>
       </div>
     </Section>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <FormMain
           data={{

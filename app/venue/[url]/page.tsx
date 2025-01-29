@@ -12,26 +12,26 @@ const Page: React.FC = () => (
     <div className='blur-cover'>
       <div
         style={{
-          backgroundImage: `url("https://images.unsplash.com/photo-1507901747481-84a4f64fda6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+          backgroundImage: 'url("https://images.unsplash.com/photo-1507901747481-84a4f64fda6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
         }}
         className='event-cover cover-image flex flex-v-center flex-h-center'
       />
       <div className='cover-info'>
         <div
           style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1507901747481-84a4f64fda6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+            backgroundImage: 'url("https://images.unsplash.com/photo-1507901747481-84a4f64fda6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
           }}
           className='cover-image image'
         />
-        <Heading type={1} color='white' text='Venue name goes here' />
+        <Heading type={1} color='gradient' text='Venue name goes here' />
         <Heading type={6} color='white' text='Shepherds Bush, London' />
       </div>
     </div>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='venue-details'>
-          <Heading type={4} color='gray' text='Venue details' />
-          <div className='paragraph-container gray'>
+          <Heading type={4} color='gradient' text='Venue details' />
+          <div className='paragraph-container white'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -53,37 +53,37 @@ const Page: React.FC = () => (
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
-        <Heading type={6} color='gray' text='Address' />
+        <Heading type={6} color='gradient' text='Address' />
         <div className='paragraph-container'>
-          <p className='gray'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
+          <p className='white'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
         </div>
-        <Heading type={6} color='gray' text='How to get there?' />
+        <Heading type={6} color='gradient' text='How to get there?' />
         <div className='paragraph-container'>
-          <p className='gray'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
+          <p className='white'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
           <p className='gray'>
-            <a target='_blank' href='/' className='blue'>
+            <a target='_blank' href='/' className='purple'>
               Get directions
             </a>
             &nbsp; &bull; &nbsp;
-            <a target='_blank' href='/' className='blue'>
+            <a target='_blank' href='/' className='purple'>
               Show in map
             </a>
           </p>
         </div>
-        <Heading type={6} color='gray' text='Accesibility information' />
+        <Heading type={6} color='gradient' text='Accesibility information' />
         <div className='paragraph-container'>
-          <p className='gray'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
+          <p className='white'>Lorem ipsum dolor sit amet consecteteur adispicing elit.</p>
         </div>
       </div>
     </Section>
 
-    <CardGroup url='list' title='Event in this venue' color='gray' background='gray'>
+    <CardGroup url='list' title='Event in this venue' color='gradient' background='black'>
       <EventCard
         url='1'
         from='20'
-        color='orange'
+        color='gradient-badge'
         when='Tue, Sep 21, 2024 19:00'
         name='Event name goes here'
         venue='Royal Albert Hall'
@@ -92,7 +92,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='25'
-        color='orange'
+        color='gradient-badge'
         when='Wed, Aug 9, 2024 22:00'
         name='Event name goes here'
         venue='o2 Arena'
@@ -101,7 +101,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='10'
-        color='orange'
+        color='gradient-badge'
         when='Sun, Mar 14, 2024 15:00'
         name='Event name goes here'
         venue='Wembley Stadium'
@@ -110,7 +110,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='60'
-        color='orange'
+        color='gradient-badge'
         when='Mon, Jul 2, 2024 20:00'
         name='Event name goes here'
         venue='Eventim Apollo'
@@ -119,7 +119,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='20'
-        color='orange'
+        color='gradient-badge'
         when='Tue, Sep 21, 2024 19:00'
         name='Event name goes here'
         venue='Royal Albert Hall'
@@ -128,7 +128,7 @@ const Page: React.FC = () => (
       <EventCard
         url='1'
         from='25'
-        color='orange'
+        color='gradient-badge'
         when='Wed, Aug 9, 2024 22:00'
         name='Event name goes here'
         venue='o2 Arena'

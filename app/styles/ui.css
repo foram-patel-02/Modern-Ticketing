@@ -1446,6 +1446,16 @@ a.button {
   background-color: var(--light-gray);
 }
 
+.my-tickkets-btns a.button.active{
+  background: linear-gradient(90deg, rgb(115, 59, 173), rgb(79, 0, 207));
+  color: var(--white);
+  -webkit-text-fill-color: var(--white);
+}
+
+.my-tickkets-btns a.button{
+  border: 1px solid var(--purple) !important;
+}
+
 .button-group button:first-child,
 .button-group .button:first-child {
   border-top-left-radius: 10px;

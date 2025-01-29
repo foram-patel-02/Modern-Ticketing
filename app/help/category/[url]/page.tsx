@@ -10,31 +10,31 @@ import ButtonLink from '@components/Button/ButtonLink';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Help category' />
+          <Heading type={1} color='gradient' text='Help category' />
           <p>Showing all answers from this category.</p>
         </div>
       </div>
     </Section>
 
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='help-answers center'>
           <ul>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign in?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 How can i sign up?
               </Link>
             </li>
             <li>
-              <Link href='/help/answer/1' className='blue'>
+              <Link href='/help/answer/1' className='purple'>
                 Reset your password
               </Link>
             </li>
@@ -46,15 +46,15 @@ const Page: React.FC = () => (
     <Section className='gray-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={3} color='gray' text='Any questions?' />
-          <p className='gray'>
+          <Heading type={3} color='gradient' text='Any questions?' />
+          <p className='white'>
             If you can&apos;t find what you are looking for or need further support please contact
             us and we will be happy to help.
           </p>
 
           <div className='button-container'>
             <ButtonLink
-              color='blue-filled'
+              color='gradient-filled'
               rightIcon='arrow_forward'
               text='Contact us'
               url='contact'
