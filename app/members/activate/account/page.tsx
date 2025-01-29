@@ -9,11 +9,11 @@ import Form from './components/Form';
 
 const Page: React.FC = () => (
   <Master>
-    <Section className='white-background'>
+    <Section className='black-background'>
       <div className='container'>
         <div className='center'>
-          <Heading type={1} color='gray' text='Account activation' />
-          <p className='gray form-information'>
+          <Heading type={1} color='gradient' text='Account activation' />
+          <p className='white form-information'>
             Before you can sign in, you must activate your account with the code sent to your email
             address. If you do not see the email in a few minutes, check your junk mail or spam
             folder. You can do this later with your e-mail link.
