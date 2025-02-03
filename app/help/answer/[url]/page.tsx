@@ -12,7 +12,7 @@ const Page: React.FC = () => (
   <Master>
     <Section className='black-background'>
       <div className='container'>
-        <div className='flex'>
+        <div className='flex sm-block'>
           <div className='help-left'>
             <Heading type={2} color='gradient' text='Account' />
             <ul>

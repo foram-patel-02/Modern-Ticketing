@@ -1549,3 +1549,52 @@ td {
     width: unset;
   }
 }
+
+@media only screen and (max-width: 991px) {
+
+  .ticket-box .quantity button{
+    padding: 5px 0px;
+  }
+  
+  .box-inner{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .main-menu{
+    background-color: var(--pure-black) !important;
+  }
+
+  .form .form-elements .form-line .two-line{
+    width: 100%;
+    padding: 0 0 10px;
+  }
+
+  .sm-block,
+  .form .form-elements .form-line .sm-block{
+    display: block !important;
+  }
+
+  .cover-info{
+    padding: 0 20px;
+  }
+
+  .help-right{
+    padding: 10px 0;
+  }
+
+  .help-right .button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .help-right .button-container .button{
+    width: 100%;
+  }
+
+}

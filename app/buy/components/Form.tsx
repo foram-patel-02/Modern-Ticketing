@@ -103,7 +103,7 @@ const Form: React.FC = () => {
           <Heading type={5} color='gradient' text='Buyer info' />
         </div>
         <div className='form-line'>
-          <div className='flex flex-v-center flex-space-between'>
+          <div className='flex flex-v-center flex-space-between sm-block'>
             <div className='two-line'>
               <div className='label-line'>
                 <label htmlFor='name'>Name</label>
@@ -138,7 +138,7 @@ const Form: React.FC = () => {
           <Heading type={5} color='gradient' text='Payment details' />
         </div>
         <div className='form-line'>
-          <div className='flex flex-v-center flex-space-between'>
+          <div className='flex flex-v-center flex-space-between sm-block'>
             <div className='two-line'>
               <div className='label-line'>
                 <label htmlFor='cardName'>Name on card</label>
@@ -170,7 +170,7 @@ const Form: React.FC = () => {
           </div>
         </div>
         <div className='form-line'>
-          <div className='flex flex-v-center flex-space-between'>
+          <div className='flex flex-v-center flex-space-between sm-block'>
             <div className='two-line'>
               <div className='label-line'>
                 <label htmlFor='cardExpiration'>Expiration date</label>
